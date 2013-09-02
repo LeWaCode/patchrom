@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="Lewa"
-           fetch="git://10.0.0.198/git/"
-           review="10.0.0.198:8080/gerrit/" />
+  <remote  name="github"
+           fetch=".."
 
-  <default revision="patch_rom"
-           remote="Lewa" />
+  <default revision="refs/heads/jellybean"
+           remote="github"
+           sync-j="4" />
 
-  <project path="build" name="Patchrom/patchrom_build">
+  <project path="build" name="LeWaCode/patchrom_build">
     <copyfile src="makefile" dest="Makefile" />
   </project>
-  <project path="manifest" name="Patchrom/patchrom" />
-  <project path="android" name="Patchrom/patchrom_android" />
-  <project path="lewa" name="Patchrom/patchrom_lewa" />
-  <project path="tools" name="Patchrom/patchrom_tools" />
-  <project path="m1s" name="Patchrom/patchrom_m1s" />
+  <project path="manifest" name="LeWaCode/patchrom" />
+  <project path="android" name="LeWaCode/patchrom_android" />
+  <project path="lewa" name="LeWaCode/patchrom_lewa" />
+  <project path="tools" name="LeWaCode/patchrom_tools" />
+  <project path="m1s" name="LeWaCode/patchrom_m1s" />
 </manifest>
