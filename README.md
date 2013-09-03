@@ -15,7 +15,7 @@ export PATH=$PATH:~/android-sdk/tools:~/android-sdk/platform-tools
 Getting Started
 ---------------
 
-To get started with LeWaCode/patchrom, you'll need to get familiar with [Git and Repo](http://source.android.com/download/using-repo).
+To get started with LeWaCode/patchrom, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LeWa patchrom trees, use a command like this:
 
