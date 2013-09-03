@@ -4,7 +4,7 @@ Patchrom
 Get Android SDK
 ----------------
 
-In order to build LeWa patchrom, you should have the android sdk installed.(https://developer.android.com/sdk/installing.html)
+In order to build LeWa patchrom, you should have the [android sdk installed](https://developer.android.com/sdk/installing.html).
 
 Then add sdk tools and platfrom tools to PATH
 
