@@ -35,11 +35,11 @@ Build
 Assumed current directory is patchrom and you want to build the ROM for Xiaomi m1s
 
 
-     . build/envsetup.sh
+    . build/envsetup.sh
 
-     cd m1s
+    cd m1s
 
-     make fullota
+    make fullota
 
 After build completed, there will be a fullota.zip under out directory, now you can flash this file into your device.
 
