@@ -77,7 +77,6 @@ Workflow:
     make firstpatch (this command will patch the lewa code into framework.jar, services.jar and android.policy.jar, you should resolve the conflict in temp/reject)
 
     make fullota
-
 Now you get the LEWA ROM that you port for maguro, enjoy it!
 
 
