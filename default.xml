@@ -16,4 +16,5 @@
   <project path="lewa" name="LeWaCode/patchrom_lewa" />
   <project path="tools" name="LeWaCode/patchrom_tools" />
   <project path="m1s" name="LeWaCode/patchrom_m1s" />
+  <project path="coolpad5890" name="LeWaCode/patchrom_coolpad5890" />
 </manifest>
