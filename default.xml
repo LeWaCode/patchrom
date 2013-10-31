@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".." />
+           fetch="git://github.com" />
 
   <default revision="refs/heads/jellybean"
            remote="github"
