@@ -23,7 +23,7 @@ To initialize your local repository using the LeWa patchrom trees, use a command
 
     cd patchrom
 
-    repo init -u git://github.com/LeWaCode/patchrom.git -b jellybean
+    repo init -u git://github.com/LeWaCode/patchrom.git -b jellybean42
 
 Then to sync up:
 
@@ -32,12 +32,12 @@ Then to sync up:
 Build
 --------
 
-Assumed current directory is patchrom and you want to build the ROM for Xiaomi m1s
+Assumed current directory is patchrom and you want to build the ROM for oppo n1
 
 
     . build/envsetup.sh
 
-    cd m1s
+    cd oppoN1
 
     make fullota
 
@@ -77,6 +77,7 @@ Workflow:
     make firstpatch (this command will patch the lewa code into framework.jar, services.jar and android.policy.jar, you should resolve the conflict in temp/reject)
 
     make fullota
+
 Now you get the LEWA ROM that you port for maguro, enjoy it!
 
 
