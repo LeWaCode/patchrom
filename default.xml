@@ -16,5 +16,5 @@
   <project path="lewa" name="LeWaCode/patchrom_lewa" />
   <project path="tools" name="LeWaCode/patchrom_tools" revision="jellybean" />
   <project path="oppoN1" name="LeWaCode/patchrom_oppoN1" />
-  <project path="galaxynexus" name="LeWaCode/patchrom_galaxynexus" />
+  <project path="galaxynexus" name="LeWaCode/patchrom_galaxy_nexus" />
 </manifest>
