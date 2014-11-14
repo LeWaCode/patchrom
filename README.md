@@ -23,7 +23,7 @@ To initialize your local repository using the LeWa patchrom trees, use a command
 
     cd patchrom
 
-    repo init -u git://github.com/LeWaCode/patchrom.git -b jellybean42
+    repo init -u git://github.com/LeWaCode/patchrom.git -b kitkat
 
 Then to sync up:
 
@@ -32,12 +32,12 @@ Then to sync up:
 Build
 --------
 
-Assumed current directory is patchrom and you want to build the ROM for oppo n1
+Assumed current directory is patchrom and you want to build the ROM for nexus5
 
 
     . build/envsetup.sh
 
-    cd oppoN1
+    cd nexus5
 
     make fullota
 
