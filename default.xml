@@ -15,5 +15,5 @@
   <project path="android" name="LeWaCode/patchrom_android" />
   <project path="lewa" name="LeWaCode/patchrom_lewa" />
   <project path="tools" name="LeWaCode/patchrom_tools" />
-  <project patch="nexus5" name="LewaCode/patchrom_nexus5" />
+  <project path="nexus5" name="LewaCode/patchrom_nexus5" />
 </manifest>
