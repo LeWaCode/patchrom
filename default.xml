@@ -4,18 +4,15 @@
   <remote  name="github"
            fetch="git://github.com" />
 
-  <default revision="refs/heads/jellybean42"
+  <default revision="refs/heads/kitkat"
            remote="github"
            sync-j="4" />
 
-  <project path="build" name="LeWaCode/patchrom_build" revision="jellybean" >
+  <project path="build" name="LeWaCode/patchrom_build" revision="kitkat" >
     <copyfile src="makefile" dest="Makefile" />
   </project>
   <project path="manifest" name="LeWaCode/patchrom" />
   <project path="android" name="LeWaCode/patchrom_android" />
   <project path="lewa" name="LeWaCode/patchrom_lewa" />
-  <project path="tools" name="LeWaCode/patchrom_tools" revision="jellybean" />
-  <project path="oppoN1" name="LeWaCode/patchrom_oppoN1" />
-  <project path="galaxynexus" name="LeWaCode/patchrom_galaxy_nexus" />
-  <project path="mx2" name="LeWaCode/patchrom_mx2" />
+  <project path="tools" name="LeWaCode/patchrom_tools" />
 </manifest>
