@@ -46,7 +46,7 @@ After build completed, there will be a fullota.zip under out directory, now you 
 Porting device
 ----------------
 
-Asssumed current directory is patchrom and you want to port lewa to a new android device maguro
+Asssumed current directory is patchrom and you want to port lewa to a new android device nexus5
 
 Prerequiste:
 
@@ -62,9 +62,9 @@ Workflow:
 
     . build/envsetup.sh
 
-    mkdir maguro
+    mkdir nexus5
 
-    cd maguro
+    cd nexus5
 
     adb reboot recovery
 
